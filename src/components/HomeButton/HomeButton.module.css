@@ -1,0 +1,33 @@
+.homeButton {
+    border: 5px solid var(--black);
+    background-color: var(--white);
+    border-radius: 20px;
+    color: var(--black);
+
+    padding: 15px;
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-decoration: none;
+}
+
+.homeButton span {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.homeButton:hover {
+    border-color: var(--red);
+    background-color: var(--soft-white);
+    color: var(--red);
+}
+  
+.homeIcon {
+   font-size: 10rem;
+}
